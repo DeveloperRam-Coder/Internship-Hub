@@ -1,6 +1,6 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
-import carouselImage1 from '../assets/img/carousel-1.jpg';
+import bannerImage1 from '../assets/img/banner.jpg';
 import { FaArrowRight, FaQuoteLeft } from 'react-icons/fa'; // Import React Icons
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
     padding: '2rem',
     backgroundColor: '#f0f0f0',
     position: 'relative', // Ensure the section is relative for absolute positioning of overlay
-    backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${carouselImage1})`, // Background image with overlay
+    backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${bannerImage1})`, // Background image with overlay
     backgroundSize: 'cover', // Cover entire section
     backgroundPosition: 'center', // Center align the background image
     fontFamily: 'Arial, sans-serif', // Font family for the entire section
@@ -27,7 +27,7 @@ const Home = () => {
     left: '50%', // Position the overlay text/button at the center horizontally
     transform: 'translate(-50%, -50%)', // Center the overlay text/button
     textAlign: 'center',
-    zIndex: 1, // Ensure overlay appears above the carousel images
+    zIndex: 1, // Ensure overlay appears above the banner images
     padding: '0 20px', // Add padding for better readability
   };
 

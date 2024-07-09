@@ -18,14 +18,16 @@ const AboutUs = () => (
 
 const styles = {
   container: {
+    border:' 1px solid black',
+
     display: 'grid',
     gridTemplateColumns: '1fr 1fr',
     gap: '20px',
-    padding: '40px',
+    padding: '100px',
     hight: '100vh',
     minHeight: '100vh', // Ensure minimum height is 100vh to fill viewport
 
-    // backgroundColor: '#f9f9f9',
+    backgroundColor: '#ffe89c',
     // alignItems: 'center',
   },
   aboutSection: {

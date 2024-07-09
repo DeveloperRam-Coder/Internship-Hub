@@ -9,8 +9,8 @@ const Navbar = () => {
     // position: 'fixed',
     top: 0,
     width: '100%',
-    // background: '#333',
-    // color: 'white',
+    background: '#333',
+    color: 'white',
     padding: '1rem',
     display: 'flex',
     justifyContent: 'center',
@@ -31,7 +31,7 @@ const Navbar = () => {
 
   return (
     <nav style={navStyle}>
-      {['home', 'about-us', 'internship-opportunities', 'how-it-works', 'testimonials', 'contact-us'].map((section) => (
+      {['home', 'about-us', 'internship-opportunities', 'testimonials', 'contact-us', 'gridDataToPDF'].map((section) => (
         <div
           key={section}
           style={itemStyle}

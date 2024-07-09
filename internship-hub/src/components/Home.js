@@ -5,6 +5,8 @@ import { FaArrowRight, FaQuoteLeft } from 'react-icons/fa'; // Import React Icon
 
 const Home = () => {
   const sectionStyle = {
+    border:' 1px solid black',
+
     height: '100vh', // Set section height to full viewport height
     display: 'flex',
     flexDirection: 'column',

@@ -2,10 +2,11 @@ import React from 'react';
 import Home from './components/Home';
 import AboutUs from './components/AboutUs';
 import InternshipOpportunities from './components/InternshipOpportunities';
-import HowItWorks from './components/HowItWorks';
 import Testimonials from './components/Testimonials';
 import ContactUs from './components/ContactUs';
 import Navbar from './components/Navbar';
+import GridDataToPDF from './components/GridDataToPDF';
+
 import './App.css';
 
 function App() {
@@ -15,9 +16,9 @@ function App() {
       <Home />
       <AboutUs />
       <InternshipOpportunities />
-      <HowItWorks />
       <Testimonials />
       <ContactUs />
+      <GridDataToPDF />
     </div>
   );
 }

@@ -63,9 +63,11 @@ const InternshipOpportunities = () => {
 
 const styles = {
   section: {
+    border:' 1px solid black',
+
     height: '100vh',
-    padding: '50px',
-    backgroundColor: '#f0f0f0',
+    padding: '100px',
+    backgroundColor: '#ffe89c',
     fontFamily: 'Arial, sans-serif',
   },
   opportunitiesContainer: {
